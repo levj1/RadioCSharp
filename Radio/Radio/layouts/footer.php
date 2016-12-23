@@ -1,0 +1,37 @@
+
+<footer>
+  <div class="content container-fluid">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="copyright">
+          <span>&copy; Copyright <?php echo date("Y"); ?> <?php echo $title; ?> All right reserved.                   
+        </div>
+     </div>
+      <div class="col-lg-4">
+        <nav class="navbar navbar-default" role="navigation">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#contactus">Contact Us</a></li>
+          </ul>
+        </nav>        
+      </div><!-- col-lg-4 -->
+      <div class="col-lg-4">
+          <div class="copyright">
+            Connect with us. 
+            <!--             social media icons 
+            <ul class="nav navbar-nav navbar-right social">
+                <li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-linkedin"></i></a></li>
+            </ul>-->
+        </div>
+      </div><!-- col-lg-4 -->
+    </div><!-- row -->
+  </div><!-- content container -->
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="js/myscript.js"></script>
+</body>
+</html>
